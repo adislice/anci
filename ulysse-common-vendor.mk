@@ -79,3 +79,4 @@ $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-voice.m
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-wfd.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-widevine.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-wifi.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-fingerprint.mk)
