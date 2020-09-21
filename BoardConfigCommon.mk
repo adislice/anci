@@ -167,8 +167,8 @@ DEVICE_MATRIX_FILE   := $(VENDOR_PATH)/compatibility_matrix.xml
 
 ifeq ($(subst lineage_,,$(PRODUCT_NAME)),$(PRODUCT_DEVICE))
 DEVICE_MANIFEST_FILE += $(VENDOR_PATH)/manifest-lineage.xml
-else ifeq ($(subst rr_,,$(PRODUCT_NAME)),$(PRODUCT_DEVICE))
-DEVICE_MANIFEST_FILE += $(VENDOR_PATH)/manifest-lineage.xml
+else ifeq ($(subst ancient_,,$(PRODUCT_NAME)),$(PRODUCT_DEVICE))
+DEVICE_MANIFEST_FILE += $(VENDOR_PATH)/manifest-ancient.xml
 endif
 
 # Init
